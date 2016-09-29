@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">jferris-HabitTracker</string>
+    <string name="action_create_habit">\"CreateHabit\"</string>
+    <string name="action_settings">\"settings\"</string>
+</resources>
