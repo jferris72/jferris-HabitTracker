@@ -34,8 +34,11 @@ import com.google.gson.reflect.TypeToken;
 
 /**
  * Created by jferris on 27/09/16.
+<<<<<<< HEAD
  * Activity used to create a habit
  * allows user to set habit name, start date and select which days the habit is to be completed
+=======
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
  */
 public class CreateHabitActivity extends Activity {
     private static final String FILENAME = "habitFile.sav";
@@ -44,7 +47,10 @@ public class CreateHabitActivity extends Activity {
     private ArrayList<Habit> habitList = new ArrayList<Habit>();
     private CheckBox mondayCB,tuesdayCB, wednesdayCB, thursdayCB, fridayCB, saturdayCB, sundayCB;
     private Calendar myCalendar = Calendar.getInstance();
+<<<<<<< HEAD
     LoadSaveHabits loadSave;
+=======
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +72,11 @@ public class CreateHabitActivity extends Activity {
                 habitList.add(newHabit);
 
 
+<<<<<<< HEAD
                 loadSave.saveInFile();
+=======
+                saveInFile();
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
             }
         });
 
@@ -87,9 +97,13 @@ public class CreateHabitActivity extends Activity {
     protected void onStart() {
         // TODO Auto-generated method stub
         super.onStart();
+<<<<<<< HEAD
         loadSave = new LoadSaveHabits(this, habitList);
         habitList = loadSave.loadFromFile();
         //loadFromFile();
+=======
+        loadFromFile();
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
         updateLabel();
     }
 

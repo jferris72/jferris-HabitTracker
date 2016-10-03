@@ -7,6 +7,7 @@
     android:paddingRight="16dp"
     android:orientation="vertical">
 
+<<<<<<< HEAD
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,12 +17,18 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.05" />
 
+=======
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
     <ListView
         android:id="@+id/dailyHabits"
         android:layout_width="fill_parent"
         android:layout_height="263dp"
         android:layout_weight="1"
+<<<<<<< HEAD
         android:scrollbars="vertical">
+=======
+        android:scrollbars="vertical" >
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
     </ListView>
 
 

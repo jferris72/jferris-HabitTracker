@@ -8,11 +8,14 @@
         android:title="@string/action_create_habit"
         android:showAsAction="never"
         android:onClick="createHabitIntent"/>
+<<<<<<< HEAD
     <item
         android:id="@+id/action_all_habits"
         android:title="@string/action_all_habits"
         android:showAsAction="never"
         android:onClick="allHabitIntent"/>
+=======
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
 
 
 

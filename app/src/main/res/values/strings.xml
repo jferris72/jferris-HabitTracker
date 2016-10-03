@@ -2,5 +2,8 @@
     <string name="app_name">jferris-HabitTracker</string>
     <string name="action_create_habit">\"CreateHabit\"</string>
     <string name="action_settings">\"settings\"</string>
+<<<<<<< HEAD
     <string name="action_all_habits">All Habits</string>
+=======
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
 </resources>

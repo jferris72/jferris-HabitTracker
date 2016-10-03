@@ -7,21 +7,30 @@ import java.util.Date;
 
 /**
  * Created by jferris on 22/09/16.
+<<<<<<< HEAD
  * This is the main habit class used to model a habit
  * Habits have names, a creation date, a list of which days they are to be done and a list of past completions
  * getters and setters are made for each of the above fields
  * methods are provided for toString(), check if complete for the day and check if the habit is to be completed for the day of the week
+=======
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
  */
 public class Habit {
     private String name;
     private Calendar date;
     private Boolean[] daysOfWeek;
+<<<<<<< HEAD
     private ArrayList<Calendar> completionList;
+=======
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
 
     public Habit(String name) {
         this.name = name;
         this.date = Calendar.getInstance();
+<<<<<<< HEAD
         this.completionList = new ArrayList<Calendar>();
+=======
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
         this.daysOfWeek = new Boolean[7];
         this.daysOfWeek[0] = false;
         this.daysOfWeek[1] = false;
@@ -52,16 +61,20 @@ public class Habit {
         return this.daysOfWeek;
     }
 
+<<<<<<< HEAD
     public ArrayList<Calendar> getCompletionList() {
         return completionList;
     }
     //override to string to allow printing of habit
+=======
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
     @Override
     public String toString() {
         SimpleDateFormat format1 = new SimpleDateFormat("MM-dd-yy");
         String formatted = format1.format(date.getTime());
         return formatted + " " + name;
     }
+<<<<<<< HEAD
     //Check if needs to be completed for day of week
     public Boolean isToday() {
         Calendar todayCalendar = Calendar.getInstance();
@@ -91,4 +104,12 @@ public class Habit {
         }
     }
 
+=======
+
+    public Boolean isToday() {
+        Calendar todayCalendar = Calendar.getInstance();
+
+        return daysOfWeek[todayCalendar.get(Calendar.DAY_OF_WEEK)-1];
+    }
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
 }

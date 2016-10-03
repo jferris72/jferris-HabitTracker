@@ -3,7 +3,10 @@ package com.example.jferris.jferris_habittracker;
 import org.junit.Test;
 
 import java.util.ArrayList;
+<<<<<<< HEAD
 import java.util.Calendar;
+=======
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
 import java.util.Date;
 
 import static org.junit.Assert.*;
@@ -53,6 +56,7 @@ public class ExampleUnitTest {
         assertEquals(true, habit.isToday());
 
     }
+<<<<<<< HEAD
 
     @Test
     public void testCompletionList() throws Exception {
@@ -63,4 +67,6 @@ public class ExampleUnitTest {
         habit.addCompletion(calendar);
         assertEquals(2, habit.getCompletionList().size());
 ;    }
+=======
+>>>>>>> 1245456e94ea629c91afb68cf61d286d6d8204f8
 }
