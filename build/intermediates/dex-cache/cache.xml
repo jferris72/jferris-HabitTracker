@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/jferris/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/home/jferris/CMPUT301/jferris-HabitTracker/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_3d6b3ed22cae52cf15db150c62e99ace8936d90d.jar" />
+    </item>
+    <item
+        jar="/opt/android-studio/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/home/jferris/CMPUT301/jferris-HabitTracker/app/build/intermediates/pre-dexed/debug/gson-2.2.4_ee0179183cc12d87b762899f0e71bd373d3fee7f.jar" />
+    </item>
+    <item
+        jar="/home/jferris/CMPUT301/jferris-HabitTracker/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f68bc5d35ba1a2f43f7fdd011a8216c6cacc045d">
+        <dex dex="/home/jferris/CMPUT301/jferris-HabitTracker/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_12fdab615cbac98c65e14a23af25fe14fe0f0332.jar" />
+    </item>
+    <item
+        jar="/home/jferris/CMPUT301/jferris-HabitTracker/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="619ef405385cf5d52e46f9d7cd2824ea8fd07634">
+        <dex dex="/home/jferris/CMPUT301/jferris-HabitTracker/app/build/intermediates/pre-dexed/debug/instant-run_04defc82a43e7ff577b1b2eccba06ef9eccb026d.jar" />
+    </item>
+    <item
+        jar="/home/jferris/CMPUT301/jferris-HabitTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="/home/jferris/CMPUT301/jferris-HabitTracker/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-18.0.0_91324092202ee52a84e1a9d932ea2de39ea77e71.jar" />
+    </item>
+
+</items>
